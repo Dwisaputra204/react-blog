@@ -1,6 +1,6 @@
-import Header from '../../header/Header'
-import Posts from '../../posts/Posts'
-import Sidebar from '../../sidebar/Sidebar'
+import Header from '../../components/header/Header'
+import Posts from '../../components/posts/Posts'    
+import Single from '../single/Single'
 import './home.css'
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
             <Header/>
             <div className="home">
                 <Posts/>
-                <Sidebar/>
+                <Single/>
             </div>
         </>
     )
