@@ -3,7 +3,20 @@ import './write.css';
 export default function Write() {
     return (
         <div className="write">
-            <form className="writeFormGroup"></form>
+            <img className="writeImg" src="https://images.unsplash.com/photo-1622405448532-8b1d2fc16548?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" alt="" />
+            <form className="writeForm">
+                <div className="writeFormGroup">
+                    <label htmlFor="fileInput">
+                        <i className="writeIcon fas fa-plus"></i>
+                    </label>
+                    <input type="file" id="fileInput" style={{display: "none"}}/>
+                    <input type="text" placeholder="Title" className="writeInput" autoFocus={true}/>   
+                </div>
+                <div className="writeFormGroup">
+                    <textarea placeholder="Tell ur story ..." type="text" className="writeInput writeText"></textarea>
+                </div>
+                <button className="writeSubmit">Publish</button>
+            </form>
         </div>
     )
 }
