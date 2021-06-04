@@ -1,4 +1,4 @@
-.login {
+.register {
   height: calc(100vh - 50px);
   display: flex;
   align-items: center;
@@ -8,46 +8,46 @@
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("https://images.unsplash.com/photo-1540350394557-8d14678e7f91?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80");
+    url("https://images.unsplash.com/photo-1585220197334-4f24a2f7d57e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80");
   background-size: cover;
 }
 
-.logiTitle {
+.registerTitle {
   font-size: 50px;
   text-align: center;
 }
 
-.loginForm {
+.registerForm {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
 }
 
-.loginForm > label {
+.registerForm > label {
   margin: 10px 0;
 }
 
-.loginInput {
+.registerInput {
   padding: 10px;
   background-color: white;
   border: none;
 }
 
-.loginButton {
+.registerButton {
   margin-top: 20px;
   cursor: pointer;
-  background-color: lightcoral;
+  background-color: teal;
   border: none;
   color: white;
   border-radius: 10px;
   padding: 10px;
 }
 
-.loginRegisterButton {
+.registerLoginButton {
   position: absolute;
   top: 60px;
   right: 20px;
-  background-color: teal;
+  background-color: lightcoral;
   border: none;
   cursor: pointer;
   padding: 10px;
